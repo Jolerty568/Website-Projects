@@ -1,0 +1,57 @@
+@font-face {
+    font-family: MyCustomFont;
+    src: url(Roboto_Mono/static/RobotoMono-Bold.ttf);
+}
+
+body{
+    background-color: #8ecae6;
+    font-family: MyCustomFont;
+    color: #023047;
+}
+
+.topnav{
+    background-color: #023047;
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+.topnav a   {
+    float: left;
+    color: #ffff;
+    text-align: center;
+    font-size: 15px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: #ffb703;
+    color: #ffff;
+}
+
+.topnav a.active {
+    background-color: #fb8500;
+}
+
+hr  {
+    border: solid #023047 1px;
+}
+
+.link  {  
+    width: 150px;
+    float: right;
+    margin-right: 500px;
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 17px;
+    text-align: center;
+    border: solid #023047;
+    border-radius: 2em;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 5px 6px #023047;
+}
+
+a:hover {
+    background-color: #023047;
+    color: white;
+}
