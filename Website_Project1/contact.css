@@ -7,6 +7,7 @@ body{
     background-color: #8ecae6;
     font-family: MyCustomFont;
     color: #023047;
+    text-align: center;
 }
 
 .topnav{
@@ -54,4 +55,9 @@ hr  {
 a:hover {
     background-color: #023047;
     color: white;
+}
+
+input[type="submit"]{
+    margin-right: 700px;
+    border-radius: 5px;
 }

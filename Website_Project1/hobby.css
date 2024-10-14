@@ -52,6 +52,34 @@ h2  {
     margin-top: 50px;
 }
 
+table{
+    border: solid 2px white;
+    border-collapse: collapse;
+    margin-left: 50px;
+    background-color: white;
+    color: #023047;
+    box-shadow: 2px 2px 5px 6px #023047;
+}
+
+tr, td{
+    border: solid 2px #023047;
+    padding: 10px;
+}
+th{
+    border: solid 2px #023047;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+
+caption{
+    caption-side: bottom;
+    font-size: 10px;
+    color: white;
+    text-align: left;
+    margin-top: 10px;
+}
+
 .tekstLinks   {
     width: 500px;   
     padding: 20px;
