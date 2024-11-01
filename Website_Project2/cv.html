@@ -52,7 +52,7 @@
     <div class="row justify-content-center">
         <div class="col-sm">
             <h1>Jo Louwet</h1>
-            <h2>Graduaat Programmeren (werktraject)</h2>
+            <h2>Graduaat Programmeren (werktraject) <span class="badge text-bg-success"> New</span></h2>
         </div>
         <div class="col-sm col-7"><img class="pf" src="imgs/FotoJo2.jpg" alt="FotoJo"></div>
     </div>
@@ -109,36 +109,16 @@
     </div>
     <br>
     <div class="row">
-        <div class="col-sm">
-            <h3>Vaardigheden</h3>
-            <fieldset>
-                <legend>Engelse taal</legend>
-                Ervaren
-            </fieldset>
-            <fieldset>
-                <legend>Nederlandse taal</legend>
-                Ervaren
-            </fieldset>
-            <fieldset>
-                <legend>Franse taal</legend>
-                Bekwaam
-            </fieldset>
-            <fieldset>
-                <legend>HTML &amp; CSS</legend>
-                Beginner
-            </fieldset>
-            <fieldset>
-                <legend>Programming in C#</legend>
-                Beginner
-            </fieldset>
-            <fieldset>
-                <legend>Database SQL</legend>
-                Beginner
-            </fieldset>
-            <fieldset>
-                <legend>Bootstrap</legend>
-                Beginner
-            </fieldset>
+        <div class="col-sm-3">
+            <h3>Vaardigheden:</h3>
+            <p>Klik voor info</p>
+            <button type="button" class="btn btn-lg btn-success" data-bs-toggle="popover" data-bs-title="Nederlandse taal" data-bs-content="Ervaren">Nederlandse taal</button>
+            <button type="button" class="btn btn-lg btn-success" data-bs-toggle="popover" data-bs-title="Engelse taal" data-bs-content="Ervaren">Engelse taal</button>
+            <button type="button" class="btn btn-lg btn-success" data-bs-toggle="popover" data-bs-title="Franse taal" data-bs-content="Bekwaam">Franse taal</button>
+            <button type="button" class="btn btn-lg btn-success" data-bs-toggle="popover" data-bs-title="HTML & CSS" data-bs-content="Beginner">HTML & CSS</button>
+            <button type="button" class="btn btn-lg btn-success" data-bs-toggle="popover" data-bs-title="Programming in C#" data-bs-content="Beginner">Programming in C#</button>
+            <button type="button" class="btn btn-lg btn-success" data-bs-toggle="popover" data-bs-title="Database SQL" data-bs-content="Beginner">Database SQL</button>
+            <button type="button" class="btn btn-lg btn-success" data-bs-toggle="popover" data-bs-title="Bootstrap" data-bs-content="Beginner">Bootstrap</button>
         </div>
         <div class="col-sm">
             <h3>Opleidingen</h3>
@@ -222,6 +202,11 @@
             arrows: true,
         });
     });
+</script>
+
+<script>
+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
 </script>
 
 </body>

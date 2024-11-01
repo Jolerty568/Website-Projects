@@ -13,7 +13,6 @@ body{
     margin-top: 5%;
 }
 
-
 h1{
     text-decoration: underline;
 }
@@ -44,7 +43,6 @@ img{
 .intro{
     width: 50%;
 }
-
 
 .c-img2{
     height: auto;
@@ -88,12 +86,15 @@ img{
 .nav-item{
     margin-right: 25px;
 }
-
+.toph{
+    margin-top: 100px;
+}
 footer{
     background-color: #023047;
     padding: 20px;
     position: absolute;
     width: 100%;
+    position: relative;
 }
 
 
@@ -102,3 +103,4 @@ footer{
     height: 24px;
     filter: brightness(0) invert(1);
 }
+

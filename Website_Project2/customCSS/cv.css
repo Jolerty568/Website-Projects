@@ -95,3 +95,8 @@ footer{
 .color{
     color: white;
 }
+
+.btn{
+    margin-top: 16px;
+    width: 100%;
+}
