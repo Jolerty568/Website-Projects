@@ -38,9 +38,7 @@ h1{
     box-shadow: 2px 2px 5px 6px #023047;
     margin-top: 40px;
 }
-col{
-    height: 500px;
-}
+
 
 img{
     margin-bottom: 20px;
@@ -53,27 +51,18 @@ img{
     margin-left: 10px; /* omdat schaduw overliep in col begin */
 }
 
-footer {
+footer{
     background-color: #023047;
-    color: #fff;
-    text-align: center;
     padding: 20px;
-    font-size: 1.2rem;
 }
-.icons{
-    filter: brightness(0) invert(1);
+
+
+.icon{
+    width: 24px;
     height: 24px;
-}
-.icons {
-    margin-top: 10px;
+    filter: brightness(0) invert(1);
 }
 
-.icons>a {
-    display: inline-block;
-    margin: 0 10px;
-    text-decoration: none;
+.color{
+    color: white;
 }
-footer>p {
-    margin: 0;
-}
-

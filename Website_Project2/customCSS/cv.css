@@ -34,10 +34,9 @@ body{
 }
 
 .col-sm{
-    border: solid 2px black;
-    margin: 5px;
     padding: 10px;
     height: auto;
+    border-collapse: collapse;
 }
 
 h1, h2{
@@ -46,6 +45,7 @@ h1, h2{
 
 .pf{
     width: 450px;
+    height: auto;
     border-radius: 360%;
     box-shadow: 2px 2px 5px black;  
 }
@@ -80,26 +80,18 @@ fieldset{
 }
 
 
-footer {
+footer{
     background-color: #023047;
-    color: #fff;
-    text-align: center;
     padding: 20px;
-    font-size: 1.2rem;
-}
-.icons{
-    filter: brightness(0) invert(1);
-    height: 24px;
-}
-.icons {
-    margin-top: 10px;
 }
 
-.icons>a {
-    display: inline-block;
-    margin: 0 10px;
-    text-decoration: none;
+
+.icon{
+    width: 24px;
+    height: 24px;
+    filter: brightness(0) invert(1);
 }
-footer>p {
-    margin: 0;
+
+.color{
+    color: white;
 }
