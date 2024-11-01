@@ -32,7 +32,7 @@ h1{
 }
 
 .tekst{
-    width: 500px;
+    width: auto;
     padding: 20px;
     border: solid #023047;
     border-radius: 2em;
