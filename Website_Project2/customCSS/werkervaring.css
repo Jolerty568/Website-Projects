@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #8ecae6;
+    background-color: #00486c;
     font-family: MyCustomFont;
     color: #023047;
     font-size: 1.2rem;
@@ -26,37 +26,54 @@ body{
 .nav-item{
     margin-right: 25px;
 }
-
+h1{
+    color: white;
+}
 .tekst    {
-    width: 500px;   
     padding: 20px;
     font-size: 17px;
-    text-align: left;
     border: solid #023047;
     border-radius: 2em;
-    margin-left: 50px;
     background-color: white;
     box-shadow: 2px 2px 5px 6px #023047;
+    margin-top: 40px;
+}
+col{
+    height: 500px;
 }
 
-h1{
-    margin-left: 50px;
-}
-
-h2  {
-    text-decoration: underline;
-    margin-left: 50px;
-}
 img{
-    width: 400px;
-    float: right;
-    position: absolute;
-    right: 200px;
-    top: 220px;
-    border-radius: 2em;
+    margin-bottom: 20px;
+    border-radius: 360%;
+    border: solid 1px #023047;
     box-shadow: 2px 2px 5px 6px #023047;
+    margin-top: 10px;
+    width: 90%;
+    height: auto;
+    margin-left: 10px; /* omdat schaduw overliep in col begin */
 }
 
-hr  {
-    border: solid #023047 1px;
+footer {
+    background-color: #023047;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2rem;
 }
+.icons{
+    filter: brightness(0) invert(1);
+    height: 24px;
+}
+.icons {
+    margin-top: 10px;
+}
+
+.icons>a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+}
+footer>p {
+    margin: 0;
+}
+

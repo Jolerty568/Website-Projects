@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="vendor/slick.css">
+    <link rel="stylesheet"  href="css/bootstrap.min.css">
     <link rel="stylesheet" href="customCSS/cv.css">
     <link rel="icon" href="imgs/favicon.ico">
+
 </head>
 <body>
     <nav class="navbar navbar-dark navbar-expand-lg bg-dark fixed-top custom-navbar" >
@@ -42,85 +45,120 @@
         </div>
         </div>
     </nav>
-<img src="imgs/FotoJo2.jpg" alt="FotoJo2">
-<br><br><br><br>
-<h1>Jo Louwet</h1>
-<h2>Graduaat Programmeren (werktraject)</h2>
-<br><br><br><br>
-<hr>
+
+
+
 <div class="container">
-    <div>
-        <h3>Over Mezelf</h3>
-        <div>
-            Ik ben Jo Louwet, 23 jaar oud en studeer het Graduaat Programmeren te Thomas More als avondtraject.
-            Ik studeer deze richting omdat ik altijd manieren zoek om mezelf te verbeteren.
-            Ook neem ik vaak initiatief en stel veel vragen als ik een onderwerp moeilijk vind of iets niet weet.
+    <div class="row justify-content-center">
+        <div class="col">
+            <h1>Jo Louwet</h1>
+            <h2>Graduaat Programmeren (werktraject)</h2>
+        </div>
+        <div class="col col-7"><img class="pf" src="imgs/FotoJo2.jpg" alt="FotoJo"></div>
+    </div>
+    <br><br>
+<div class="row">
+    <h3>Mijn skills:</h3>
+    <div class="slick-carousel text-center">
+        <div class="slide img-slide">
+            <img class="test" src="imgs/html.jpg" alt="HTML Skill">
+            <p>HTML: De opmaaktaal voor webpagina's.</p>
+        </div>
+        <div class="slide img-slide">
+            <img class="test" src="imgs/css.jpeg" alt="CSS Skill">
+            <p>CSS: Voor styling en lay-out van webpagina's.</p>
+        </div>
+        <div class="slide img-slide">
+            <img class="test" src="imgs/data.jpeg" alt="SQL Skill">
+            <p>SQL: Taal voor het beheren van databases.</p>
+        </div>
+        <div class="slide img-slide">
+            <img class="test" src="imgs/bootstrap.jpg" alt="Bootstrap Skill">
+            <p>Bootstrap: Een framework voor responsieve webdesigns.</p>
+        </div>
+        <div class="slide img-slide">
+            <img class="test" src="imgs/c.jpg" alt="C# Skill">
+            <p>C#: Programmeertaal voor softwareontwikkeling.</p>
         </div>
     </div>
-    <div>
-        <h3>Werkervaring</h3>
-        <h4>Verkoopsmedewerker (Opvang ziekte)</h4>
-        <fieldset>
-            <legend>Aldi NV.</legend>
-            <div class="kleingrijs">mrt. 2019 - heden</div>
-            <div class="kleingrijs">Werkzone: Heusden-Zolder</div>
-            Ik ben binnen Aldi NV. een opvang ziekte. Dit houdt in dat wanneer er in filialen binnen
-            mijn werkzone mensen ziek vallen ik hen zal vervangen in de winkel van toepassing. Voor de 
-            rest is mijn taakomschrijving hetzelfde als dat van alle medewerkers. (rekken vullen, kassa, winkel poetsen)
-        </fieldset>
+</div>
+<br>
+    <div class="row">
+        <div class="col-sm">        
+            <h3>Over Mezelf</h3>
+            <div>
+                Ik ben Jo Louwet, 23 jaar oud en studeer het Graduaat Programmeren te Thomas More als avondtraject.
+                Ik studeer deze richting omdat ik altijd manieren zoek om mezelf te verbeteren.
+                Ook neem ik vaak initiatief en stel veel vragen als ik een onderwerp moeilijk vind of iets niet weet.
+            </div>
+        </div>
+        <div class="col-sm">
+            <h3>Werkervaring</h3>
+            <h4>Verkoopsmedewerker (Opvang ziekte)</h4>
+            <fieldset>
+                <legend>Aldi NV.</legend>
+                <div class="kleingrijs">mrt. 2019 - heden</div>
+                <div class="kleingrijs">Werkzone: Heusden-Zolder</div>
+                Ik ben binnen Aldi NV. een opvang ziekte. Dit houdt in dat wanneer er in filialen binnen
+                mijn werkzone mensen ziek vallen ik hen zal vervangen in de winkel van toepassing. Voor de 
+                rest is mijn taakomschrijving hetzelfde als dat van alle medewerkers. (rekken vullen, kassa, winkel poetsen)
+            </fieldset>
+        </div>
     </div>
-    <div class="vaardigheden">
-        <h3>Vaardigheden</h3>
-        <fieldset>
-            <legend>Engelse taal</legend>
-            Ervaren
-        </fieldset>
-        <fieldset>
-            <legend>Nederlandse taal</legend>
-            Ervaren
-        </fieldset>
-        <fieldset>
-            <legend>Franse taal</legend>
-            Bekwaam
-        </fieldset>
-        <fieldset>
-            <legend>HTML &amp; CSS</legend>
-            Beginner
-        </fieldset>
-        <fieldset>
-            <legend>Programming in C#</legend>
-            Beginner
-        </fieldset>
-        <fieldset>
-            <legend>Database SQL</legend>
-            Beginner
-        </fieldset>
-  
+    <br>
+    <div class="row">
+        <div class="col-sm">
+            <h3>Vaardigheden</h3>
+            <fieldset>
+                <legend>Engelse taal</legend>
+                Ervaren
+            </fieldset>
+            <fieldset>
+                <legend>Nederlandse taal</legend>
+                Ervaren
+            </fieldset>
+            <fieldset>
+                <legend>Franse taal</legend>
+                Bekwaam
+            </fieldset>
+            <fieldset>
+                <legend>HTML &amp; CSS</legend>
+                Beginner
+            </fieldset>
+            <fieldset>
+                <legend>Programming in C#</legend>
+                Beginner
+            </fieldset>
+            <fieldset>
+                <legend>Database SQL</legend>
+                Beginner
+            </fieldset>
+        </div>
+        <div class="col-sm">
+            <h3>Opleidingen</h3>
+            <h4>TSO - Houttechnieken</h4>
+            <fieldset>
+                <legend>WICO Campus TIO</legend>
+                <div class="kleingrijs">Pelt</div>
+                In deze opleiding kregen we een variatie van praktijkvakken maar ook technische vakken.
+                We moesten meubels van keukens tot badkamers uittekenen in de theorievakken en in elkaar zetten in de praktijkvakken.
+                Programmeren van de CNC, tekeningen maken met 3D tools, planningen maken zitten allemaal in het pakket.
+            </fieldset>
+            <br>    
+            <h4>Graduaat - Programmeren</h4>
+            <fieldset>
+                <legend>Thomas More</legend>
+                <div class="kleingrijs">Geel</div>
+                <div class="kleingrijs">(Nog niet compleet)</div>
+                In deze opleiding krijgen we verschillende programmeer talen te leren.
+                HTML en CSS krijgen we in het vak websites. C# leren we in het vak programmeren.
+                Tot slot leren we over databases aan de hand van SQL.
+            </fieldset>
+        </div>
     </div>
-    <div>
-        <h3>Opleidingen</h3>
-        <h4>TSO - Houttechnieken</h4>
-        <fieldset>
-            <legend>WICO Campus TIO</legend>
-            <div class="kleingrijs">Pelt</div>
-            In deze opleiding kregen we een variatie van praktijkvakken maar ook technische vakken.
-            We moesten meubels van keukens tot badkamers uittekenen in de theorievakken en in elkaar zetten in de praktijkvakken.
-            Programmeren van de CNC, tekeningen maken met 3D tools, planningen maken zitten allemaal in het pakket.
-        </fieldset>
-        <br>
-        <br> 
-        <br>
-        <h4>Graduaat - Programmeren</h4>
-        <fieldset>
-            <legend>Thomas More</legend>
-            <div class="kleingrijs">Geel</div>
-            <div class="kleingrijs">(Nog niet compleet)</div>
-            In deze opleiding krijgen we verschillende programmeer talen te leren.
-            HTML en CSS krijgen we in het vak websites. C# leren we in het vak programmeren.
-            Tot slot leren we over databases aan de hand van SQL.
-        </fieldset>
-    </div>
-    <div class="item-onder">
+    <br>
+    <div class="row">
+        <div class="col-sm">
         <fieldset>
             <h3>Certificaat</h3>
             <h4>VCA - Certificaat</h4>
@@ -138,12 +176,52 @@
         In deze stage moesten we meedraaien in de productie van een schrijnwerkerij.
         Deze maakte alles prefab en werd verpakt en afgeleverd aan de klant.
         De klant moest enkel het nog in elkaar zetten en vastschroeven en of lijmen.
-        </fieldset>
+        </fieldset></div>
     </div>
 
 </div>
 
+<br>
+
+
+
+
+<footer>
+    <p>&copy; 2024 Jo Louwet</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/jo.louwet.9?locale=nl_NL" target="_blank">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/jolouwet/" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/jo-louwet-424a28196/" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+    </div>
+</footer>
+
+
+
+
 <script src="https://kit.fontawesome.com/61c3137df2.js" crossorigin="anonymous"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="vendor/slick.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $('.slick-carousel').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            dots: true,
+            arrows: true,
+        });
+    });
+</script>
+
 </body>
 </html>

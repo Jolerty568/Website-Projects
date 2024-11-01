@@ -44,51 +44,83 @@
         </div>
     </nav>
 
-<h1>Contacteer mij!</h1>
-<hr>
 
-<p>Als je nog vragen hebt of je wilt me contacteren dan kan dat zeker! Vind alle info hier onder.</p>
-
-<div class="link">
-<a href="https://www.linkedin.com/in/jo-louwet-424a28196/" target="_blank">LinkedIn</a><br> 
-<a href="https://www.instagram.com/jolouwet/" target="_blank">Instagram</a><br>
-<a href="mailto:r0792884@student.thomasmore.be">Email</a>
+    
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+            <form action="https://tm-statweb.be/forms.php" method="post">       
+                <div>
+                    <label for="Voornaam">Voornaam</label>
+                </div>
+                <div>
+                    <input type="text" name="Voornaam" id="Voornaam" placeholder="Voornaam" style="width: 200px;" required>
+                </div>
+                <br>
+                <div>
+                    <label for="Achternaam">Achternaam</label>
+                </div>
+                <div>
+                    <input type="text" name="Achternaam" id="Achternaam" placeholder="Achternaam" style="width: 200px;" required>
+                </div>
+                <br>
+                <div>
+                    <label for="email">E-mail</label>
+                </div>
+                <div>
+                    <input type="email" name="email" id="email" placeholder="voorbeeld@hotmail.com" style="width: 200px;" required>
+                </div>
+                <br>
+                <div>
+                    <label for="skilllijst">Vragen over een skill?</label>
+                </div>
+                <div>
+                    <select name="skilllijst" id="skilllijst" >
+                        <option value="html">HTML</option>
+                        <option value="css">CSS</option>
+                        <option value="Bootstrap">Bootstrap</option>
+                        <option value="csharp">C#</option>
+                        <option value="sql">SQL</option>
+                        <option value="andere">Andere</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="vraag">Vragen of opmerkingen?</label>
+                </div>
+                <div>
+                    <textarea name="vraag" id="vraag" rows="4" cols="25" placeholder="Stel hier je vraag"></textarea>
+                </div>
+                <br>
+                <div>
+                <input type="submit" class="btn btn-lg px-4 me-md-2 fw-bold" name="submit" id="1">
+                </div>
+            
+            </form>
+        </div>
+        <div class="col-sm"><img src="imgs/pexels-pixabay-270632.jpg" alt=""></div>
+    </div>
 </div>
+<br>
 
 
 
 
-<form action="https://tm-statweb.be/forms.php" method="post">       
-    <div>
-        <label for="Voornaam">Voornaam</label>
+<footer>
+    <p>&copy; 2024 Jo Louwet</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/jo.louwet.9?locale=nl_NL" target="_blank">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/jolouwet/" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/jo-louwet-424a28196/" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
     </div>
-    <div>
-        <input type="text" name="Voornaam" id="Voornaam" placeholder="Voornaam" style="width: 200px;" required>
-    </div>
-    <div>
-        <label for="Achternaam">Achternaam</label>
-    </div>
-    <div>
-        <input type="text" name="Achternaam" id="Achternaam" placeholder="Achternaam" style="width: 200px;" required>
-    </div>
-    <div>
-        <label for="email">E-mail</label>
-    </div>
-    <div>
-        <input type="email" name="email" id="email" placeholder="voorbeeld@hotmail.com" style="width: 200px;" required>
-    </div>
-    <div>
-        <label for="vraag">Vragen of opmerkingen?</label>
-    </div>
-    <div>
-        <textarea name="vraag" id="vraag" rows="4" cols="25" placeholder="Stel hier je vraag"></textarea>
-    </div>
-    <br>
-    <div>
-    <input type="submit" name="submit" id="1">
-    </div>
+</footer>
 
-</form>
+
 
 <script src="https://kit.fontawesome.com/61c3137df2.js" crossorigin="anonymous"></script>
 <script src="js/bootstrap.bundle.min.js"></script>

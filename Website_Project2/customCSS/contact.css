@@ -4,10 +4,11 @@
 }
 
 body{
-    background-color: #8ecae6;
+    background-color: #00486c;
     font-family: MyCustomFont;
-    color: #023047;
+    color: white;
     font-size: 1.2rem;
+    text-align: left;
 }
 
 .custom-navbar {
@@ -28,31 +29,55 @@ body{
     margin-right: 25px;
 }
 
-
-hr  {
-    border: solid #023047 1px;
+.row{
+    margin-top: 100px;
 }
 
-.link  {  
-    width: 150px;
-    float: right;
-    margin-right: 500px;
-    margin-top: 50px;
-    padding: 20px;
-    font-size: 17px;
-    text-align: center;
-    border: solid #023047;
-    border-radius: 2em;
-    background-color: whitesmoke;
-    box-shadow: 2px 2px 5px 6px #023047;
-}
-
-a:hover {
+.btn{
     background-color: #023047;
     color: white;
 }
 
-input[type="submit"]{
-    margin-right: 700px;
-    border-radius: 5px;
+img{
+    width: 100%;
+    border: solid #023047;
+    border-radius: 2em;
+    box-shadow: 2px 2px 5px 6px #023047;   
+    margin-top: 20px;
 }
+
+.btn:hover{
+    background-color: #ffb703;
+    color: white;
+}
+
+option{
+    color: #023047;
+}
+
+
+
+footer {
+    background-color: #023047;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+.icons{
+    filter: brightness(0) invert(1);
+    height: 24px;
+}
+.icons {
+    margin-top: 10px;
+}
+
+.icons>a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+}
+footer>p {
+    margin: 0;
+}
+

@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #8ecae6;
+    background-color: #00486c;
     font-family: MyCustomFont !important;
     color: #023047;
     font-size: 1.2rem;
@@ -27,11 +27,8 @@ body{
 .nav-item{
     margin-right: 25px;
 }
-.bordercustom{
-    border: solid 1px #023047;
-}
 h1{
-    color: #023047;
+    color: white;
 }
 
 .tekst{
@@ -39,8 +36,8 @@ h1{
     padding: 20px;
     border: solid #023047;
     border-radius: 2em;
-    background-color: white;
     box-shadow: 2px 2px 5px 6px #023047;    
+    background-color: white;
 }
 
 .btn{
@@ -57,7 +54,53 @@ p{
     margin-top: 30px;
     margin-bottom: 30px;
 }
-img{
+.imggroot{
     margin-bottom: 20px;
     border-radius: 360%;
+    border: solid 1px #023047;
+    box-shadow: 2px 2px 5px 6px #023047;
+}
+.color{
+    border: solid 5px #023047;
+    background-color: #00486c;
+}
+
+.card-body{
+    color: #023047;
+    border: solid 2px #023047;
+}
+
+.card{
+    border: solid 2px #023047;
+}
+
+.imgklein{
+    border: solid 2px #023047;
+}
+
+
+footer {
+    background-color: #023047;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+
+.icons{
+    filter: brightness(0) invert(1);
+    height: 24px;
+}
+.icons {
+    margin-top: 10px;
+}
+
+.icons>a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+}
+footer>p {
+    margin: 0;
 }

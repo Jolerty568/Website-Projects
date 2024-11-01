@@ -4,13 +4,18 @@
 }
 
 body{
-    background-color: #8ecae6;
+    background-color: #00486c;
     font-family: MyCustomFont;
-    color: #023047;
+    color: white;
     font-size: 1.2rem;
 }
 .container{
     margin-top: 5%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -21,21 +26,19 @@ h1{
 img{
     box-shadow: 2px 2px 5px 6px #023047;
     border: solid 1px #023047;
+    height: auto;
+    width: 100%;
 }
 
 .h2h{
     margin-top: 100px;
 }
 
-.c-item{
+.carousel-item{
     height: 650px;
-}
+    width: 100%;
 
-.c-img{
-    height: 100%;
-    object-fit: cover;
 }
-
 
 .col-sm{
     margin-top: 100px;
@@ -47,27 +50,30 @@ img{
     width: 50%;
 }
 
-.colh{
-    margin-top: 100px;
-}
 
 .c-img2{
-    height: 100%;
-    object-fit: cover;
-    width: auto;
+    height: auto;
+    width: 100%;
 }
 .c-img3{
-    height: 100%;
-    object-fit: cover;
+    height: auto;
     width: 100%;
 }
 
 .tekst{ 
     padding: 20px;
+    box-shadow: 2px 2px 5px 6px #023047;  
     border: solid #023047;
     border-radius: 2em;
     background-color: white;
-    box-shadow: 2px 2px 5px 6px #023047;  
+    color: #023047;
+}
+.carousel-caption{ 
+    width: 500px;
+    border: solid #023047;
+    border-radius: 2em;
+    background-color: white;
+    color: #023047;
 }
 
 .custom-navbar {
@@ -86,5 +92,29 @@ img{
 
 .nav-item{
     margin-right: 25px;
+}
+
+footer {
+    background-color: #023047;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+.icons{
+    filter: brightness(0) invert(1);
+    height: 24px;
+}
+.icons {
+    margin-top: 10px;
+}
+
+.icons>a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+}
+footer>p {
+    margin: 0;
 }
 
